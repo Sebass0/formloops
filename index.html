@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ Entrant Count:
+ <input 
+    type="range" 
+    min="1" 
+    max="10" 
+    value="1" 
+     id="myRange"
+     oninput="changeButtonLabel()">
+
+ 
+ <input 
+    id="createFormButton"
+    type=button 
+    value="Create form for muh duck entrant(s)" 
+    onClick="formLoop()">
+ 
+ <div id=fieldSetContainer>
+ <p><fieldset value="Entrant1" name="Entrant">
+    <legend>Entrant</legend>
+    
+    <input type="text" value="Name:"> 
+    <input type="text" value="Address:">
+</fieldset></p>
+</div>
+
+
+
+</body>
+</html>
