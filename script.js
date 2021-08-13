@@ -28,3 +28,4 @@ function changeButtonLabel(){
     console.log("Changed button label")
 }
 changeButtonLabel()
+formLoop()
